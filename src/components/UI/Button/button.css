@@ -1,0 +1,22 @@
+.button {
+  background: #003a6f;
+  min-width: 100px;  
+  height: 2em;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  font-family: Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+}
+
+.button-todo {
+  background: #003a6f;
+  min-width: 100px;  
+  height: 2em;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-family: Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+}

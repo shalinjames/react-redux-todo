@@ -1,0 +1,26 @@
+{
+  "name": "react-redux-tutorials",
+  "version": "1.0.0",
+  "description": "React and redux todo application for tutorial purposes. ",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-preset-flow": "6.23.0",
+    "css-loader": "0.28.11",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-persist": "1.0.2",
+    "react-redux": "5.0.7",
+    "react-scripts": "1.1.4",
+    "reduce-reducers": "0.3.0",
+    "redux": "4.0.0",
+    "redux-persist": "5.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,43 @@
+.list li.completed{
+    text-decoration: line-through;
+    border: 1px solid green;
+}
+.list{
+  text-align: center;
+  align-content: center;
+  display: block;
+  cursor: pointer;
+}
+.list li{
+  list-style: none;
+  display: block;
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 10px;
+  margin: auto;
+  margin-top: .5rem;
+  color: #212529;
+  border-radius: .25em;
+  width: 48rem;
+  background: #fff;
+  line-height: 1.5;  
+  
+}
+
+.list li span.icon-close{
+  height: 16px;
+  width: 16px;
+  border: 1px dotted #eee;
+  float: right;
+  margin: 3px;
+  background: url('https://png.icons8.com/ios-glyphs/16/000000/cancel.png');
+
+}
+
+.list li .title{
+  font-size: 3rem ;
+}
+
+.list li .description{
+  font-style: italic; 
+}
